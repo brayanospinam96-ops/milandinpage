@@ -1,0 +1,183 @@
+/* 🎨 Estilo artístico con tonos naranjas suaves */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #fff5eb, #ffe4cc);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Encabezado */
+.header {
+  background: linear-gradient(90deg, #ff9f68, #ffbd80);
+  padding: 15px 20px;
+  text-align: center;
+  border-bottom: 4px solid #ff914d;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.nav-link:hover {
+  color: #ffe9d6;
+  text-shadow: 0px 0px 8px rgba(255, 145, 77, 0.6);
+}
+
+/* Secciones */
+.section {
+  padding: 50px 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.7);
+  margin: 30px auto;
+  width: 85%;
+  border-radius: 20px;
+  box-shadow: 0px 6px 15px rgba(255, 145, 77, 0.2);
+}
+
+/* Títulos */
+.section-title {
+  font-size: 2rem;
+  color: #ff7a3d;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #ffa366;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+/* Perfil */
+.profile-section {
+  text-align: center;
+}
+
+.profile-photo {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #ffa366;
+  margin-bottom: 15px;
+  box-shadow: 0 6px 12px rgba(255, 145, 77, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.profile-photo:hover {
+  transform: scale(1.08);
+}
+
+.profile-name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff7a3d;
+}
+
+.profile-summary {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #444;
+}
+
+/* Listas */
+ul.list,
+ul.list-inline {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+ul.list li,
+ul.list-inline li {
+  margin: 10px 0;
+  font-size: 1rem;
+  background: #fff3e6;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-right: 8px;
+  box-shadow: 0 4px 8px rgba(255, 145, 77, 0.2);
+}
+
+/* Linktree */
+.linktree-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.linktree-link {
+  display: block;
+  background: linear-gradient(90deg, #ff7a3d, #ffa366);
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: bold;
+  width: 220px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0px 5px 10px rgba(255, 145, 77, 0.3);
+}
+
+.linktree-link:hover {
+  background: linear-gradient(90deg, #ffa366, #ff7a3d);
+  transform: translateY(-4px);
+}
+
+/* Formulario de contacto */
+.contact-form {
+  max-width: 500px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ffa366;
+  font-size: 1rem;
+  background: #fff9f3;
+}
+
+.submit-button {
+  padding: 12px;
+  background: linear-gradient(90deg, #ff9f68, #ff7a3d);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-button:hover {
+  background: linear-gradient(90deg, #ff7a3d, #ff9f68);
+  transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+  background: #ff7a3d;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  font-size: 0.9rem;
+  border-top: 4px solid #ff914d;
+}
