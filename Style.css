@@ -10,7 +10,7 @@ body {
 
 /* Encabezado */
 .header {
-  background: linear-gradient(90deg, #ff9f68, #ffbd80);
+  background: linear-gradient(90deg, #00B0F6, #00B0F6);
   padding: 15px 20px;
   text-align: center;
   border-bottom: 4px solid #ff914d;
@@ -42,7 +42,7 @@ body {
 /* Títulos */
 .section-title {
   font-size: 2rem;
-  color: #ff7a3d;
+  color: #00B0F6;
   margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -69,7 +69,7 @@ body {
   height: 170px;
   border-radius: 50%;
   object-fit: cover;
-  border: 5px solid #ffa366;
+  border: 5px solid #00B0F6;
   margin-bottom: 15px;
   box-shadow: 0 6px 12px rgba(255, 145, 77, 0.3);
   transition: transform 0.3s ease;
@@ -82,7 +82,7 @@ body {
 .profile-name {
   font-size: 2rem;
   font-weight: bold;
-  color: #ff7a3d;
+  color: #00B0F6;
 }
 
 .profile-summary {
@@ -121,7 +121,7 @@ ul.list-inline li {
 
 .linktree-link {
   display: block;
-  background: linear-gradient(90deg, #ff7a3d, #ffa366);
+  background: linear-gradient(90deg, #00B0F6, #00B0F6);
   color: white;
   padding: 12px 20px;
   text-decoration: none;
@@ -134,7 +134,7 @@ ul.list-inline li {
 }
 
 .linktree-link:hover {
-  background: linear-gradient(90deg, #ffa366, #ff7a3d);
+  background: linear-gradient(90deg, #00B0F6, #00B0F6);
   transform: translateY(-4px);
 }
 
@@ -151,14 +151,14 @@ ul.list-inline li {
 .contact-form textarea {
   padding: 12px;
   border-radius: 8px;
-  border: 1px solid #ffa366;
+  border: 1px solid #00B0F6;
   font-size: 1rem;
   background: #fff9f3;
 }
 
 .submit-button {
   padding: 12px;
-  background: linear-gradient(90deg, #ff9f68, #ff7a3d);
+  background: linear-gradient(90deg, #00B0F6, #00B0F6);
   border: none;
   color: #fff;
   font-weight: bold;
@@ -168,16 +168,17 @@ ul.list-inline li {
 }
 
 .submit-button:hover {
-  background: linear-gradient(90deg, #ff7a3d, #ff9f68);
+  background: linear-gradient(90deg, #00B0F6, #00B0F6);
   transform: scale(1.05);
 }
 
 /* Footer */
 .footer {
-  background: #ff7a3d;
+  background: #00B0F6;
   color: #fff;
   padding: 15px;
   text-align: center;
   font-size: 0.9rem;
-  border-top: 4px solid #ff914d;
+  border-top: 4px solid #00B0F6;
 }
+
